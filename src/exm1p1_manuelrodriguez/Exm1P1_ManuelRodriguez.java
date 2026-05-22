@@ -24,6 +24,7 @@ public class Exm1P1_ManuelRodriguez {
             switch(opcion){
                 case 1:
                     System.out.println("CONVERSION BINARIO A DECIMAL");
+                    ejercicio1();
                     break;
                 case 2:
                     System.out.println("CONTAINS MANUAL");
@@ -34,7 +35,7 @@ public class Exm1P1_ManuelRodriguez {
                     contenerPapu(cadena,subCadena);
                     break;
                 case 3:
-                    System.out.println(" REEMPLAZO DE PALABRAS ");
+                    ejercicio3();
                     break;
                 case 4:
                     System.out.println("Finalizando programa...");
@@ -52,14 +53,27 @@ public class Exm1P1_ManuelRodriguez {
         System.out.println("2. Contains Manual");
         System.out.println("3. Reemplazo de palabras");
         System.out.println("4. Salir");
-        System.out.print("Ingrese una opcion");
+        System.out.println("Seleccione una opcion:");
+    }
+    
+    public static void ejercicio1(){
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Ingrese una cadena binaria de 8 caracteres: ");
+        String cadena = entrada.nextLine();
+        
+        for (int i = 0; i <= cadena.length(); i++) {
+            
+        }
     }
     
     public static boolean contenerPapu(String texto, String buscar){
         
     }
     
-    public static String reemplazo(String cadena, String search, String reemplazo){
+    public static String ejercicio3(String cadena, String search, String reemplazo){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Ingrese la cadena: ");
         
     }
+    
 }
