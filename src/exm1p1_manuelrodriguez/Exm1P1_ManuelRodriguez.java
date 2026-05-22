@@ -18,7 +18,7 @@ public class Exm1P1_ManuelRodriguez {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        do{
+      
             menu();
             int opcion = scanner.nextInt();
             switch(opcion){
@@ -27,14 +27,23 @@ public class Exm1P1_ManuelRodriguez {
                     break;
                 case 2:
                     System.out.println("CONTAINS MANUAL");
+                    System.out.println("Ingrese la cadena principal: ");
+                    String cadena = scanner.nextLine();
+                    System.out.println("Ingrese la cadena a buscar: ");
+                    String subCadena = scanner.nextLine();
+                    contenerPapu(cadena,subCadena);
                     break;
                 case 3:
-                    System.out.println(" REEMPLAZO DE PALABRAS");
+                    System.out.println(" REEMPLAZO DE PALABRAS ");
                     break;
+                case 4:
+                    System.out.println("Finalizando programa...");
+                    break;
+                default:
+                    System.out.println("Opcion invalida");
             }
-        }
-        
-    }
+        } 
+    
     public static void menu(){
         System.out.println("------MENU------");
         System.out.println("1. Conversion de Binario a Decimal");
@@ -43,4 +52,10 @@ public class Exm1P1_ManuelRodriguez {
         System.out.println("4. Salir");
         System.out.print("Ingrese una opcion");
     }
+    
+    public static boolean contenerPapu(String texto, String buscar){
+        boolean cadena1 = 
+    }
+    
+    public static 
 }
