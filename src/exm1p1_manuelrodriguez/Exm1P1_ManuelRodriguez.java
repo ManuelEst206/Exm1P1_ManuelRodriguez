@@ -60,20 +60,26 @@ public class Exm1P1_ManuelRodriguez {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Ingrese una cadena binaria de 8 caracteres: ");
         String cadena = entrada.nextLine();
-        
+        boolean validar = true;
+      
         for (int i = 0; i <= cadena.length(); i++) {
             
         }
     }
     
     public static boolean contenerPapu(String texto, String buscar){
-        
+        for (int i = 0; i < texto.length(); i++) {
+            
+                
+            
+        }
     }
     
     public static String ejercicio3(String cadena, String search, String reemplazo){
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese la cadena: ");
-        
+        cadena = sc.nextLine();
+        System.out.println("");
     }
     
 }
