@@ -17,10 +17,10 @@ public class Exm1P1_ManuelRodriguez {
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
-      
+        int opcion;
+      do{
             menu();
-            int opcion = scanner.nextInt();
+            opcion = scanner.nextInt();
             switch(opcion){
                 case 1:
                     System.out.println("CONVERSION BINARIO A DECIMAL");
@@ -42,7 +42,9 @@ public class Exm1P1_ManuelRodriguez {
                 default:
                     System.out.println("Opcion invalida");
             }
-        } 
+        }while(opcion!=4);
+        scanner.close();
+    }
     
     public static void menu(){
         System.out.println("------MENU------");
@@ -54,8 +56,10 @@ public class Exm1P1_ManuelRodriguez {
     }
     
     public static boolean contenerPapu(String texto, String buscar){
-        boolean cadena1 = 
+        
     }
     
-    public static 
+    public static String reemplazo(String cadena, String search, String reemplazo){
+        
+    }
 }
